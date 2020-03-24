@@ -4,7 +4,7 @@ project(catkin_clang_format)
 
 find_package(catkin REQUIRED)
 
-catkin_package(CFG_EXTRAS cmake_modules-extras.cmake)
+catkin_package(CFG_EXTRAS catkin_clang_format-extras.cmake)
 
 ## Install all cmake files
 install(DIRECTORY cmake/Modules
