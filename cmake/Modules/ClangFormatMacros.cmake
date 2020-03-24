@@ -22,7 +22,7 @@ macro(enable_clang_build)
   set(MY_HEADERS ${MY_HEADERS_H} ${MY_HEADERS_HPP})
 endmacro()
 
-macro(clang_format_fix)
+macro(enable_clang_format)
   #message("[CMake] ENABLE_CLANG_FORMAT_FIX")
   find_program(CLANG_FORMAT_BIN clang-format-8)
   set(FILES_TO_FORMAT ${MY_SOURCES} ${MY_HEADERS})
@@ -51,7 +51,7 @@ macro(clang_format_fix)
 
 endmacro()
 
-macro(clang_tidy_fix)
+macro(enable_clang_tidy)
   #message("[CMake] ENABLE_CLANG_TIDY_FIX")
   find_program(CLANG_TIDY_BIN clang-tidy-8)
 
