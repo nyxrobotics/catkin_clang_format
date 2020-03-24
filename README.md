@@ -15,6 +15,7 @@
 - add below in your CMakeLists.txt
 
         find_package(catkin_clang_format REQUIRED)
+		include(${CMAKE_MODULE_PATH}/ClangFormatMacros.cmake)
         enable_clang_build()
         clang_format_fix()
         clang_tidy_fix()
