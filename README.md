@@ -16,7 +16,7 @@ This package provides CMake macros of formatting C++ sources and headers with cl
 
 - copy .clang-format and .clang-tidy to your catkin workspace
 
-        cp ./config/* path-to-your-catkin-workspace
+        cp ./config/.clang-* path-to-your-catkin-workspace
 
 ## Usage
 - add below in your package.xml
