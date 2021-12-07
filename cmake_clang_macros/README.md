@@ -12,7 +12,7 @@ This package provides CMake macros of formatting C++ sources and headers with cl
 
         cd path-to-your-catkin-workspace
         git clone https://github.com/nyxrobotics/catkin_clang_format.git
-        cd catkin_clang_format
+        cd catkin_clang_format/cmake_clang_macros
 
 - copy .clang-format and .clang-tidy to your catkin workspace
 
@@ -29,7 +29,7 @@ This package provides CMake macros of formatting C++ sources and headers with cl
 
 - add below in your CMakeLists.txt
 
-        find_package(catkin_clang_format REQUIRED)
+        find_package(cmake_clang_macros REQUIRED)
         include(${CMAKE_MODULE_PATH}/ClangFormatMacros.cmake)
         enable_clang_build()
         enable_clang_format()

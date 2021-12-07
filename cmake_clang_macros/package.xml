@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>catkin_clang_format</name>
+  <name>cmake_clang_macros</name>
   <version>0.0.1</version>
   <description>CMake Modules for clang, clang-format and clang-tidy</description>
   <author email="nyxrobotics01@gmail.com">nyxrobotics</author>
