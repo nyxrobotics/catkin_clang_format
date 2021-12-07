@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <name>catkin_format</name>
+  <version>0.0.1</version>
+  <description>CMake Modules for clang, clang-format and clang-tidy</description>
+  <author email="nyxrobotics01@gmail.com">nyxrobotics</author>
+  <maintainer email="nyxrobotics01@gmail.com">nyxrobotics</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cmake_clang_macros</build_depend>
+</package>

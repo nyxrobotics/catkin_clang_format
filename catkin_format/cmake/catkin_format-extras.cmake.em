@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8.3)
+cmake_policy(SET CMP0054 NEW)
+option(DUMP_CONFIG "Enable to Show Current Config" ON)
+  find_package(cmake_clang_macros REQUIRED)
+  include(${CMAKE_MODULE_PATH}/ClangFormatMacros.cmake)
+  enable_clang_build()
+  enable_clang_format()
+  enable_clang_tidy()
