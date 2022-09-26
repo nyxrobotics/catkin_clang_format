@@ -15,5 +15,6 @@ include_directories(${catkin_INCLUDE_DIRS})
 #    scripts/catkin_format/__init__.py
 #    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )
+
 catkin_install_python(PROGRAMS src/catkin_format/__init__.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
